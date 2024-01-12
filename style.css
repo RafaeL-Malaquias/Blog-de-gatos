@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    -color-bg:#065E7C;
+}
+
+header {
+    background-color: red;
+    display:  flex;
+    padding: 12px 28px;
+}
+header 
