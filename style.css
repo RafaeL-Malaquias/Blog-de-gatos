@@ -82,7 +82,17 @@ main .icon-logo {
 aside {
     margin-top: 34px;
     margin-left: 22px;
+    
 }
+
+ aside h1 {
+    margin-bottom: 32px;
+ }
+
+ aside figure {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+ }
 
 
 
