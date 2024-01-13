@@ -54,6 +54,15 @@ header #pesquisa::placeholder {
     font-weight: 600;
 }
 
+main p {
+    margin-top: 43px;
+    margin-left: 26px;
+}
+main h1 {
+    margin: 31px 0px 0px 26px;
+}
+
+
 footer {
     color: #FFF;
     background-color: var(--color-bg);
