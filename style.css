@@ -54,13 +54,36 @@ header #pesquisa::placeholder {
     font-weight: 600;
 }
 
-main p {
-    margin-top: 43px;
-    margin-left: 26px;
-}
+
 main h1 {
     margin: 31px 0px 0px 26px;
 }
+
+main p {
+    width: 382px;
+    margin-top: 43px;
+    margin-left: 26px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+main .icon-logo {
+    color: #FFF;
+    background-color: #065E7C;
+    margin-top: 8px;
+    margin-left: 22px;
+    border-radius: 50%;
+    padding: 12px;
+
+}
+/* */
+aside {
+    margin-top: 34px;
+    margin-left: 22px;
+}
+
 
 
 footer {
