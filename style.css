@@ -171,6 +171,7 @@ footer p {
 
 @media (min-width:452px){
     body {
+        margin: 0 auto;
     }
     header input {
         width: 80%;
@@ -178,7 +179,7 @@ footer p {
     .page {
         margin: 40px 34px 36px 109px ;  
         display: grid;
-        grid-template-columns: 800px 384px ;
+        grid-template-columns: 1000px 3px ;
         gap: 32px;
     }
     main p {
@@ -186,11 +187,9 @@ footer p {
         height: 405px;
     }
     .title {
-        display: inline-flex;
-        align-items: center;
-        row-gap: 300px;
-
-        
+        display: flex;
+         width: 800px;
+         height: 40px;        
     }
  aside {
     margin-left: 36px;
