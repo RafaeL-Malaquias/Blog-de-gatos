@@ -171,33 +171,56 @@ footer p {
 
 @media (min-width:452px){
     body {
-        margin: 0 auto;
+        
     }
     header input {
         width: 80%;
     }
-    .page {
-        margin: 40px 34px 36px 109px ;  
+    .page { 
+         margin: 40px 34px 36px 109px ;  
         display: flex;
         justify-content: center;
         gap: 32px;
+
     }
+
+    .img-bg {
+        display: block;
+        width: 800px;
+        object-fit: cover;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+ main .icon-logo {
+    display: block;
+     float: right;
+     margin-top: 0;
+    
+ }
+
+.title {
+    margin-top: 31px;
+    display: flex;
+    align-items: center;
+}
 
     main h1 {
+        width: 680px;
+        margin-top: 0;
         margin-left: 0;
-
     }
+    
     main p {
-        width: 800px;
-        height: 405px;
+        min-width: 800px;
         margin-top: 32px;
         margin-left: 0;
+        text-align: left;
+
     }
-    .title {
-        display: flex;
-         width: 800px;
-         height: 40px;        
-    }
+
  aside {
     margin-top: 0;
     margin-left: 0;
