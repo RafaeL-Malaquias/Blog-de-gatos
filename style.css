@@ -81,8 +81,15 @@ main .icon-logo {
     margin-left: 22px;
     border-radius: 50%;
     padding: 12px;
-
 }
+main picture img {
+    border-radius: 5px;
+    min-width: 431px;
+    min-height: 242px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
 /* */
 aside {
     display: flex;
@@ -162,11 +169,33 @@ footer p {
     line-height: normal;
 }
 
-@media (min-width:450px){
+@media (min-width:452px){
     body {
-        background-color: #065E7C;
     }
     header input {
         width: 80%;
     }
+    .page {
+        margin: 40px 34px 36px 109px ;  
+        display: grid;
+        grid-template-columns: 800px 384px ;
+        gap: 32px;
+    }
+    main p {
+        width: 800px;
+        height: 405px;
+    }
+    .title {
+        display: inline-flex;
+        align-items: center;
+        row-gap: 300px;
+
+        
+    }
+ aside {
+    margin-left: 36px;
+ }
+ footer {
+    width: 100%;
+ }
 }
