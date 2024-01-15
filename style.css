@@ -98,6 +98,7 @@ aside .item  {
     width: 382px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 16px;
 
  }
@@ -127,6 +128,9 @@ aside .item  {
 
 
  aside img  {
+    justify-content: center;
+    display: flex;
+    align-items: center;
     border-radius: 5px;
     width: 151px;
     height: 84px;
