@@ -131,7 +131,7 @@ aside .item  {
     width: 151px;
     height: 84px;
     object-fit: cover;
-    f
+    aspect-ratio: 16/9;
  }
 
 
