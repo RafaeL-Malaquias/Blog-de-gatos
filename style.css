@@ -6,6 +6,7 @@
 
 :root {
    --color-bg:#065E7C;
+   font-family: 'Mulish', sans-serif;
 }
 
 header {
@@ -57,11 +58,15 @@ header #pesquisa::placeholder {
 
 main h1 {
     margin: 31px 0px 0px 26px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
 }
 
 main p {
     width: 382px;
-    margin-top: 43px;
+    margin-top: 31px;
     margin-left: 26px;
     font-size: 16px;
     font-style: normal;
@@ -127,12 +132,21 @@ aside .item  {
 
  /* footer */
 
-
 footer {
-    color: #FFF;
     background-color: var(--color-bg);
-    text-align: center;
+    display: flex;
+    width: 430px;
+    height: 64px;
     padding: 16px;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+footer p {
+    color: #FFF;
+    text-align: center;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
