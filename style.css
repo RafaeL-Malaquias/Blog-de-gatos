@@ -80,9 +80,11 @@ main .icon-logo {
 }
 /* */
 aside {
-    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
     margin-left: 22px;
-    
+    gap: 16px;
 }
 
  aside h1 {
@@ -90,8 +92,19 @@ aside {
  }
 
  aside figure {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+ }
+ aside img {
+    display: flex;
+ }
+ aside .item  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+ }
+
+ aside .item h2 {
  }
 
 
