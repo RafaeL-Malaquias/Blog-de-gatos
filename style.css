@@ -10,6 +10,8 @@
 }
 
 header {
+    min-width: 430px;
+    min-height: 72px;
     background-color: var(--color-bg);
     display:  flex;
     justify-content: center;
@@ -53,6 +55,7 @@ header #pesquisa::placeholder {
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
+    line-height: 100%;
 }
 
 
@@ -174,7 +177,7 @@ footer p {
         
     }
     header input {
-        width: 80%;
+        width: 55%;
     }
     .page { 
          margin: 40px 34px 36px 109px ;  
