@@ -178,20 +178,28 @@ footer p {
     }
     .page {
         margin: 40px 34px 36px 109px ;  
-        display: grid;
-        grid-template-columns: 1000px 400px ;
+        display: flex;
+        justify-content: center;
         gap: 32px;
+    }
+    main h1 {
+        margin-left: 0;
+
     }
     main p {
         width: 800px;
         height: 405px;
+        margin-top: 32px;
+        margin-left: 0;
     }
     .title {
         display: flex;
          width: 800px;
          height: 40px;        
     }
- aside h1 {
+ aside {
+    margin-top: 0;
+    margin-left: 0;
  }
  footer {
     width: 100%;
