@@ -179,7 +179,7 @@ footer p {
     .page {
         margin: 40px 34px 36px 109px ;  
         display: grid;
-        grid-template-columns: 1000px 3px ;
+        grid-template-columns: 1000px 400px ;
         gap: 32px;
     }
     main p {
@@ -191,8 +191,7 @@ footer p {
          width: 800px;
          height: 40px;        
     }
- aside {
-    margin-left: 36px;
+ aside h1 {
  }
  footer {
     width: 100%;
