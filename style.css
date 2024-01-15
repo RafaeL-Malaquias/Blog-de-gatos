@@ -84,22 +84,32 @@ aside {
     flex-direction: column;
     margin-top: 32px;
     margin-left: 22px;
-    gap: 16px;
+    gap: 32px;
+    column-gap: 32px;
+
+    padding-bottom: 32px;
 }
 
  aside h1 {
-    margin-bottom: 32px;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
  }
 
- aside figure {
+ aside h2 {
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
  }
  aside img {
-    display: flex;
  }
  aside .item  {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 16px;
 
  }
@@ -107,6 +117,8 @@ aside {
  aside .item h2 {
  }
 
+
+ /* footer */
 
 
 footer {
