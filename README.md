@@ -1,7 +1,7 @@
 <h1 align="center">Blog de Gatos</h1>
 <p align="center">
   <a href="https://rafael-malaquias.github.io/Blog-de-gatos/">
-    <img height="470em" src="assets/Screenshot.png">
+    <img height="400em" src="assest/Screenshot_1.jpg">
     </a>
 </p>
 
