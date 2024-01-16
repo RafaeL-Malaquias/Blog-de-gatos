@@ -78,6 +78,7 @@ main p {
 }
 
 main .icon-logo {
+    cursor: pointer;
     color: #FFF;
     background-color: #065E7C;
     margin-top: 8px;
@@ -88,10 +89,15 @@ main .icon-logo {
 main .img-bg:hover {
     filter: hue-rotate(7deg) contrast(101%) saturate(200%);
 }
-  aside img:hover {
+aside img {
+    transition: all 200ms ease-out;
+}
+aside img:hover {
     cursor: pointer;
     filter: hue-rotate(7deg) contrast(101%) saturate(200%);
+    transform: scale(1.2);
 }
+
 main picture img {
     border-radius: 5px;
     min-width: 431px;
