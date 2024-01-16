@@ -85,6 +85,13 @@ main .icon-logo {
     border-radius: 50%;
     padding: 12px;
 }
+main .img-bg:hover {
+    filter: hue-rotate(7deg) contrast(101%) saturate(200%);
+}
+  aside img:hover {
+    cursor: pointer;
+    filter: hue-rotate(7deg) contrast(101%) saturate(200%);
+}
 main picture img {
     border-radius: 5px;
     min-width: 431px;
@@ -108,7 +115,6 @@ aside .item  {
     justify-content: center;
     align-items: center;
     gap: 16px;
-
  }
 
  aside h1 {
